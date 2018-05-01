@@ -1,0 +1,124 @@
+/*专门给首页做样式*/
+#search{
+    width: 100%;
+    min-width: 1263px;
+    height: 600px;
+    background: url("../img/search.jpg") no-repeat center;
+    position: relative; /*相对定位*/
+}
+#search .center{
+    width: 600px;
+    height: 60px;
+    background-color: #000;
+    opacity: 0.6;/*透明度0-1*/
+    border-radius: 10px;/*圆角 单位可以是PX也可以是%*/
+    position: absolute; /*绝对定位*/
+    top: 50%;
+    left: 50%;
+    margin:-30px 0 0 -300px ;
+}
+#search .search{
+    width: 446px;
+    height: 52px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 -296px;
+    border-radius: 10px;
+    /*去掉外边线*/
+    outline: none;
+    color: #666;
+    font-size: 24px;
+    border: 1px solid #666;
+    padding: 0 10px;
+}
+#search .button{
+    width:120px;
+    height: 54px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 175px;
+    color: #666;
+    border: 1px solid #666;
+    font-size: 24px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer; /*鼠标变成手形*/
+    font-weight: bold;
+}
+/*主体部分*/
+#tour{
+    width: 1263px;
+    height: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+#tour .center h2{
+    font-size: 45px;
+    color: #666;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+#tour .center p{
+    color: #666;
+    margin: 10px 0;
+}
+#tour figure{
+    border: 1px solid #ddd;
+    width: 380px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 15px 12px;
+    text-align: left;
+    position: relative;
+}
+#tour figure:hover{
+    box-shadow: 0 0 15px grey;
+}
+#tour figure img{
+    vertical-align: middle;
+}
+#tour figcaption{
+    color: #777;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 7px 0 5px 0;
+}
+#tour .title{
+    font-weight: normal;
+    color: #333;
+}
+#tour .info{
+    padding: 5px 0 0 0;
+}
+#tour .sat{
+    float: right;
+    font-size: 13px;
+    color: #999;
+    font-style: normal;
+}
+#tour .price{
+    color: #f60;
+    font-size: 14px;
+}
+#tour .price strong{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#tour .type{
+    width: 90px;
+    height: 25px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #59b200;
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+
+}
